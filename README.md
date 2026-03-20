@@ -46,3 +46,5 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Link Figma https://www.figma.com/design/ZE6lLKbqRYROQgpuWs3XEV/Real-Estate-CRM----Thanh?node-id=4004-6920&t=JRj1BvDmhum5j3A1-0
