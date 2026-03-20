@@ -1,0 +1,17 @@
+@import './base.css';
+@import "tailwindcss";
+
+@theme {
+  /* Font family */
+  --font-sans: Inter, system-ui, sans-serif;
+
+  /* Font sizes */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 30px;
+  --text-4xl: 36px;
+}
