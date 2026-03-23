@@ -12,7 +12,7 @@ import SiderBar from './SiderBar.vue'
       <div class="sideBar">
         <SiderBar></SiderBar>
       </div>
-      <div class="flex flex-col w-full">
+      <div class="flex flex-col w-full gap-2">
         <Header></Header>
         <RouterView />
       </div>

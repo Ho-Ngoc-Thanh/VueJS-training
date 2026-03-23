@@ -8,7 +8,13 @@ const router = createRouter({
       path: '/',
       name: '/',
       component: AuthLayout,
-      children: [],
+      children: [
+        {
+          path: 'customers',
+          name: 'customers',
+          component: () => import('@/features/Customers-management/Customer-list/index.vue'),
+        },
+      ],
       alias: '/dashboard',
     },
     {
