@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 
 const searchInput = ref()
@@ -6,7 +6,7 @@ const searchInput = ref()
 
 <template>
   <div
-    class="max-w-369.5 w-full h-18.5 flex justify-between items-center rounded-2xl bg-white px-5 shadow"
+    class="w-full h-18.5 flex justify-between items-center rounded-2xl bg-white px-5 shadow"
   >
     <span class="text-xl font-semibold">Properties</span>
     <div class="flex gap-2.5 items-center justify-center">

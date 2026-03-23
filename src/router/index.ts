@@ -8,7 +8,48 @@ const router = createRouter({
       path: '/',
       name: '/',
       component: AuthLayout,
-      children: [],
+      children: [
+        {
+          path: 'dashboard',
+          name: 'dashboard',
+          component: () => import('@/features/Dashboard/index.vue'),
+        },
+        {
+          path: 'user',
+          name: 'user',
+          component: () => import('@/features/User/index.vue'),
+        },
+        {
+          path: 'calendar',
+          name: 'calendar',
+          // component: () => import('@/features/Calendar/index.vue'),
+          component: () => import('@/features/User/index.vue'),
+        },
+        {
+          path: 'chart',
+          name: 'chart',
+          // component: () => import('@/features/Chart/index.vue'),
+          component: () => import('@/features/User/index.vue'),
+        },
+        {
+          path: 'star',
+          name: 'star',
+          // component: () => import('@/features/Star/index.vue'),
+          component: () => import('@/features/User/index.vue'),
+        },
+        {
+          path: 'bell',
+          name: 'bell',
+          // component: () => import('@/features/Bell/index.vue'),
+          component: () => import('@/features/User/index.vue'),
+        },
+        {
+          path: 'setting',
+          name: 'setting',
+          // component: () => import('@/features/Setting/index.vue'),
+          component: () => import('@/features/User/index.vue'),
+        },
+      ],
       alias: '/dashboard',
     },
     {
