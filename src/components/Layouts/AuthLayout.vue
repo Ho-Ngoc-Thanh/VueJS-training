@@ -8,7 +8,7 @@ import SiderBar from './SiderBar.vue'
   <div
     class="flex w-screen h-screen justify-center bg-gradient-to-b from-pink-100 via-purple-100 to-white pb-3"
   >
-    <div class="flex w-full max-w-400 gap-2 pt-3">
+    <div class="flex w-full max-w-400 gap-2">
       <div class="sideBar">
         <SiderBar></SiderBar>
       </div>
