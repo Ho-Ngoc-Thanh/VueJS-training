@@ -10,6 +10,11 @@ const router = createRouter({
       component: AuthLayout,
       children: [
         {
+          path: 'customers',
+          name: 'customers',
+          component: () => import('@/features/Customers-management/Customer-list/index.vue'),
+        },
+        {
           path: 'dashboard',
           name: 'dashboard',
           component: () => import('@/features/Dashboard/index.vue'),
@@ -17,7 +22,8 @@ const router = createRouter({
         {
           path: 'user',
           name: 'user',
-          component: () => import('@/features/User/index.vue'),
+          component: () => import('@/features/Customers-management/Customer-list/index.vue'),
+          alias: 'customers',
         },
         {
           path: 'calendar',
