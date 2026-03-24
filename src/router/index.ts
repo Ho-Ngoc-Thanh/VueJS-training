@@ -26,6 +26,11 @@ const router = createRouter({
           alias: 'customers',
         },
         {
+          path: 'agent/:id',
+          name: 'agent-detail',
+          component: () => import('@/features/Dashboard/AgentDetails.vue'),
+        },
+        {
           path: 'calendar',
           name: 'calendar',
           // component: () => import('@/features/Calendar/index.vue'),

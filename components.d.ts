@@ -33,6 +33,7 @@ declare module 'vue' {
     RouterView: typeof import('vue-router')['RouterView']
     SiderBar: typeof import('./src/components/Layouts/SiderBar.vue')['default']
     Skeleton: typeof import('primevue/skeleton')['default']
+    StatictisDashboard: typeof import('./src/components/Layouts/StatictisDashboard.vue')['default']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
     WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
